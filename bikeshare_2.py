@@ -247,7 +247,7 @@ def main():
 
 
         restart = input('\nWould you like to restart? (Enter:Yes or No).\n')
-        #check wheather the user is entering the valid entry or not
+        #check whether the user is entering the valid entry or not
         while restart.lower() not in enter:
             restart = input('Please Enter Yes or No:\n')
             restart = restart.lower()
